@@ -1,0 +1,2 @@
+This requires the most recent version of the cyberpunk engine tweaks mod framework: https://github.com/yamashi/CyberEngineTweaks/releases/tag/v1.21.0
+Once installed, just drag the bin folder into the root of your cyberpunk 2077 game files. To add or remove weapons, you can edit the weapons.txt

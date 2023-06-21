@@ -1,0 +1,12 @@
+{
+  "name": "jackexe-manga-reader",
+  "version": "1.0.0",
+  "description": "Creates a simple website for reading local mangas",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build" : "docker build . -t jackexe/jackexe-manga-reader"
+  },
+  "author": "jackexe",
+  "license": "ISC"
+}

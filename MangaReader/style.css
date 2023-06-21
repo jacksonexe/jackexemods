@@ -1,0 +1,42 @@
+*{
+  @import url('https://fonts.googleapis.com/css?family=Roboto');
+}
+
+.button {
+    font: bold 11px Arial;
+    text-decoration: none;
+    background-color: #EEEEEE;
+    color: #333333;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+    padding: 20px;
+    margin-left : 50px;
+  }
+
+  .badge{
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+  }
+  
+  .badge-primary {
+    background: #337ab7;
+  }
+
+  .badge-completed {
+    background: #5cb85c;
+  }
+
+  .badge-not-started {
+    background: #777;
+  }

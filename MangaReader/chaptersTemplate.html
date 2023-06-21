@@ -1,0 +1,39 @@
+<style>
+    .styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 1.5em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    width: 100%;
+}
+
+.styled-table td {
+    height: 50px;
+}
+
+.styled-table , th, td {
+  border: 1px solid;
+}
+
+
+</style>
+<link rel="stylesheet" href="/style.css">
+<body>
+    <a href="/" class="button">Back</a>
+    <table class="styled-table">
+        <tr>
+            <th>
+                Chapter Name
+            </th>
+            <th>
+                Status
+            </th>
+        </tr>
+        %REPLACE%
+    </table>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script> 
+<script src="/handleManga.js"></script>

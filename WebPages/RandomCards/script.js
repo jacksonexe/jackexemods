@@ -69,7 +69,10 @@ $(".export").click(function () {
   console.log("Exporting");
   var node = document.getElementById("card");
 
-  domtoimage.toBlob(node).then(function (blob) {
-    window.saveAs(blob, "my-node.png");
+  domtoimage.toJpeg(node, { quality: 0.95 }).then(function (dataUrl) {
+    var link = document.createElement("a");
+    link.download = "current_card.jpeg";
+    link.href = dataUrl;
+    link.click();
   });
 });

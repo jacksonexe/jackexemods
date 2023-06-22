@@ -1,35 +1,43 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Solitare Showdown</title>
   <link rel="stylesheet" href="./style.css">
 
 </head>
+
 <body>
-<!-- partial:index.partial.html -->
-<div id="view">
-  <div id="card" class="card">
-    <div class="front">
-      <img src="./CardBack.png" style="width: 300px;height: 440px;" />
+  <!-- partial:index.partial.html -->
+  <div id="view">
+    <div class="cards">
+      <div id="card" class="card">
+        <div class="front">
+        </div>
+        <div id="main-back" class="back card-p">
+          <p class="card-title"></p>
+          <p class="card-description"></p>
+        </div>
+      </div>
+      <div class="deck">
+      </div>
     </div>
-    <div id="main-back" class="back card-p">
-      <p class="card-title"></p>
-      <p class="card-description"></p>
+    <div class="button-body">
+      <h1>Victim: <span class="vict"></span></h1>
+      <!--<a href="" class="button export">Export</a>-->
+      <div class="previousCards">
+
+      </div>
     </div>
   </div>
-  <div class="deck">
-  </div>
-  <div>
-    <a href="" class="button draw">Pick Random Card!</a>
-    <a href="" class="button export">Export</a>
-  </div>
-</div>
-<!-- partial -->
+  <!-- partial -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
-<script src='https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/dom-to-image-more/3.1.6/dom-to-image-more.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js'></script><script  src="./script.js"></script>
+  <script src='https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/dom-to-image-more/3.1.6/dom-to-image-more.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js'></script>
+  <script src="./script.js"></script>
 
 </body>
+
 </html>

@@ -29,22 +29,38 @@ a.button:hover {
   margin: 20px auto;
 }
 .card .back {
-  font: 50px/60px Times New Roman, serif;
+  font: Times New Roman, serif;
   text-align: center;
-  background: white;
-  border: black solid 5px;
+  background-image: url("./CardFront.png");
+  border: black solid 1px;
   border-radius: 15px;
   box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
   height: 100%;
 }
 .card .back p {
-  padding-top: 80px;
+  color: white;
+
+}
+
+.card .back .card-title {
+  font-size: 13px;
+  font-weight: bold;
+  margin: 8px;
+  text-shadow: 1px 1px black;
+}
+
+.card .back .card-description {
+  position : absolute;
+  top: 254px;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .deck {
   position: absolute;
   top: 4px;
-  left: 30%;
+  left: 25%;
   z-index: -1;
 }
 
@@ -56,7 +72,7 @@ a.button:hover {
   height: 440px;
   border-radius: 15px;
   border-color: white;
-  background-image: url("https://media.istockphoto.com/id/589112628/vector/seamless-pattern-from.jpg?s=612x612&w=0&k=20&c=QWV7uKiB0CH2CRz7W9g4F4eoF2-f75vQsxHfUOesZPs=");
+  background-image: url("./CardBack.png");
   border: black solid 5px;
   box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
   margin: 20px auto;
@@ -69,6 +85,8 @@ a.button:hover {
 .front {
   border-radius: 15px;
   border: black solid 5px;
+  width: 300px;
+  height: 440px;
   box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
-  background-image: url("https://media.istockphoto.com/id/589112628/vector/seamless-pattern-from.jpg?s=612x612&w=0&k=20&c=QWV7uKiB0CH2CRz7W9g4F4eoF2-f75vQsxHfUOesZPs=");
+  background-image: url("./CardFront.png");
 }
